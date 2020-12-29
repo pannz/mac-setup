@@ -19,6 +19,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # Config xxf.zsh-theme, one pretty nice theme.
 curl 'https://gist.githubusercontent.com/xfanwu/18fd7c24360c68bab884/raw/f09340ac2b0ca790b6059695de0873da8ca0c5e5/xxf.zsh-theme' > ~/.oh-my-zsh/themes/xxf.zsh-theme
 sed -i -e 's/ZSH_THEME=.*/ZSH_THEME="xxf"/' ~/.zshrc
+# install zsh-completions via brew will prompt some error, haven't google it, so here clone directly.
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
 # need additional add following in ~/.zshrc plugins, will include in dotfiles/.zshrc
 # plugins=(… zsh-completions)
@@ -28,7 +29,7 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zs
 
 
 # 3. Install packages
-brew install git vim wget go docker-compose zsh-completions nvm ruby python
+brew install git vim wget go docker-compose nvm ruby python autojump
 echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc
 echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.zshrc
 # nvm setup
