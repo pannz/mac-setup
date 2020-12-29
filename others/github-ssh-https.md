@@ -16,5 +16,3 @@ then paste it in your github settings
 
 ## Using HTTPS
 Refer to [personal access token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token) 
-
-
