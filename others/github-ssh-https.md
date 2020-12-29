@@ -16,3 +16,7 @@ then paste it in your github settings
 
 ## Using HTTPS
 Refer to [personal access token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token) 
+
+
+## For switching between SSH & HTTPS
+Refer to [Changing a remote's URL](https://docs.github.com/en/free-pro-team@latest/github/using-git/changing-a-remotes-url)

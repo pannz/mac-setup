@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 # Ackownledge
 # created and maintained by wojiaopanzhifan@gmail.com for personal usage
 # All COPYRIGHT reserved 
@@ -47,3 +50,4 @@ brew install --cask iterm2 visual-studio-code appavtive authy microsoft-edge mwe
 
 # Todo, add tools that not in brew cask
 # Flicker List
+
