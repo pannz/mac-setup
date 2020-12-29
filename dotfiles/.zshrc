@@ -70,11 +70,9 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump zsh-completions)
+plugins=(git z zsh-completions github iterm2)
 # zsh-completions
 autoload -U compinit && compinit
-# autojump
-[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
 source $ZSH/oh-my-zsh.sh    
 
