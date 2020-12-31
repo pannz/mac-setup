@@ -29,7 +29,7 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zs
 
 
 # 3. Install packages
-brew install git vim wget go docker-compose nvm ruby python autojump
+brew install git vim wget go docker-compose nvm ruby python
 echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc
 echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.zshrc
 # nvm setup

@@ -1,3 +1,5 @@
 [user]
 	name = zhifan
 	email = wojiaopanzhifan@gmail.com
+[core]
+	editor = vim
