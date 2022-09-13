@@ -40,7 +40,7 @@ git config --global user.name "zhifan"
 git config --global user.email "wojiaopanzhifan@gmail.com"
 
 # 4. Install softwares (free favoured & some purchased)
-brew install --cask iterm2 visual-studio-code apptivate authy microsoft-edge mweb slack maccy notion neteasemusic docker wechat jietu rectangle telegram
+brew install --cask iterm2 visual-studio-code apptivate authy microsoft-edge mweb-pro slack maccy notion neteasemusic docker wechat jietu rectangle telegram
 
 # Todo, add tools that not in brew cask
 # Flicker List
